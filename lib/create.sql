@@ -13,6 +13,6 @@ age INTEGER);
 
 CREATE TABLE pledges (
 id INTEGER PRIMARY KEY,
-name TEXT,
-age INTEGER,
-breed TEXT);
+amount INTEGER,
+user_id INTEGER,
+project_id INTEGER);
