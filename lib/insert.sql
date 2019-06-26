@@ -1,1 +1,1 @@
-create.sql < data.sql
+data.sql
