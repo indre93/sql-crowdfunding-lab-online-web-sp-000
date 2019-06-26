@@ -1,1 +1,1 @@
-File.read('lib/data.sql')
+insert = File.read('lib/data.sql')
