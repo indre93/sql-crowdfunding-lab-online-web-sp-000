@@ -9,10 +9,10 @@
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_name
   "SELECT SUM(pledges.amount)
   FROM projects
-  INNER JOIN pledges
+  INNDER JOIN pledges
   ON projects.id = pledges.project_id
-  ORDER BY
-   "
+  JOIN users ON pledges.user_id = users.id  
+  ORDER BY(name)"
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
