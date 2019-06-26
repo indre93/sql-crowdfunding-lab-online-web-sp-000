@@ -1,1 +1,1 @@
-data.sql
+File.read('lib/data.sql')
